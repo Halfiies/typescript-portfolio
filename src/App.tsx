@@ -1,23 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { Projects } from "./Components/Projects/Projects";
+import { projectArr } from "./Data/Projects";
+import { ProfileCard } from "./Components/ProfileCard/ProfileCard";
+import { selfProfile } from "./Data/selfProfile";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ProfileCard selfProfile={selfProfile} />
+        <Projects projectArr={projectArr} />
       </header>
     </div>
   );

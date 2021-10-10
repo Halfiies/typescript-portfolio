@@ -1,0 +1,33 @@
+@use "../../Assets/Sass/variables.scss" as *;
+.profileCard {
+  display: unset;
+  background-color: $color-back;
+  border: 1px $color-back;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  flex-flow: row nowrap;
+  width: 80%;
+}
+.profileCard__Content {
+  display: flex;
+}
+h3 {
+  display: block;
+}
+
+p {
+  display: flex;
+}
+img {
+  margin: 10px;
+  height: 200px;
+}
+
+@media all and (max-width: $breakpointmobile) {
+  section {
+    display: inline-block;
+  }
+}
