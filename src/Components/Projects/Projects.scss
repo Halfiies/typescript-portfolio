@@ -1,3 +1,37 @@
+@use "../../Assets/Sass/variables" as *;
+
 .projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-back;
+  border: 1px $color-back;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 50px;
   width: 80%;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__arrow {
+    display: block;
+    height: 30px;
+  }
+  &__Content {
+    display: flex;
+  }
+  &__content--image {
+    margin: 10px;
+    height: 200px;
+  }
+}
+
+@media all and (max-width: $breakpointmobile) {
+  section {
+    display: inline-block;
+  }
 }

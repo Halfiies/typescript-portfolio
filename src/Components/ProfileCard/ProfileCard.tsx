@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProfileCard.scss";
-import profilePicture from "../../Assets/Images/profilePicture.jpg";
+import profilePicture from "../../assets/images/profilePicture.jpg";
 interface IProfileCardProps {
   selfProfile: {
     name: string;
@@ -14,8 +14,8 @@ export const ProfileCard = ({ selfProfile }: IProfileCardProps) => {
       <h3>{selfProfile.name}</h3>
       <div className="profileCard__Content">
         <p>{selfProfile.text}</p>
+        <img src={profilePicture} alt="morris" />
       </div>
-      <img src={profilePicture} />
     </section>
   );
 };

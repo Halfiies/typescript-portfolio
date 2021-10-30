@@ -9,11 +9,11 @@ interface Props {
 
 export const ProjectCard: React.FC<Props> = ({ title, text, image, link }) => {
   return (
-    <section className="projectContent" id={`card_for_${title}`}>
+    <section className="projectCard" id={`card_for_${title}`}>
       <h3>{title}</h3>
-      <div className="projectContent__Content">
+      <div className="projectCard__Content">
         <p>{text}</p>
-        <img src={image} alt={title} />
+        <img className="projectCard__Content--image" src={image} alt={title} />
       </div>
       <p>{link}</p>
     </section>
