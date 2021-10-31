@@ -11,4 +11,10 @@ export const projectArr = [
     image: "https://www.fillmurray.com/200/300",
     link: "https://github.com/Halfiies/Calculator",
   },
+  {
+    title: "Calculator",
+    text: "Lorem Ipsum",
+    image: "https://www.fillmurray.com/200/300",
+    link: "https://github.com/Halfiies/Calculator",
+  },
 ];

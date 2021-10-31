@@ -3,23 +3,22 @@
   position: relative;
   flex-flow: row nowrap;
   top: 40px;
-  background-color: $color-back;
-  border: 1px $color-back;
+  background-color: $color-primary;
+  border: 1px $color-primary;
   border-radius: 5px;
   padding: 10px;
   margin: 50px;
   width: 80%;
-}
-.profileCard__Content {
-  display: flex;
-}
-h3 {
-  display: block;
-}
-
-img {
-  margin: 10px;
-  height: 200px;
+  &__Content {
+    display: flex;
+  }
+  &__Header {
+    display: block;
+  }
+  &__Content--Picture {
+    margin: 10px;
+    height: 200px;
+  }
 }
 
 @media all and (max-width: $breakpointmobile) {

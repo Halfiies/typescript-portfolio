@@ -5,26 +5,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: $color-back;
-  border: 1px $color-back;
+  background-color: $color-primary;
+  border: 1px $color-primary;
   border-radius: 5px;
   padding: 10px;
   margin: 50px;
   width: 80%;
-  &__header {
+  &__Header {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
 
-  &__arrow {
+  &__Arrow {
     display: block;
     height: 30px;
   }
   &__Content {
     display: flex;
   }
-  &__content--image {
+  &__Content--Image {
     margin: 10px;
     height: 200px;
   }

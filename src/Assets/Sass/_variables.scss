@@ -2,13 +2,14 @@
 $color-primary: rgba(241, 240, 234);
 $color-secondary: rgba(104, 99, 105);
 $color-tertiary: rgba(224, 221, 207);
-$color-back: #262229;
+$color-back: #343a40;
+$color-contrast: #fdb833;
 $breakpointmobile: 500px;
 $font: "Lora", serif;
 $font-buttons: "Poppins", sans-serif;
 
 * {
   font-family: $font;
-  color: $color-primary;
+  color: $color-back;
   font-size: medium;
 }

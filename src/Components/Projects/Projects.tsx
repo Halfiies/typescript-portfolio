@@ -31,30 +31,30 @@ export const Projects = ({ projectArr }: Props) => {
 
   return (
     <div className="projects">
-      <div className="projects__header">
+      <div className="projects__Header">
         <img
           src={leftArrow}
           alt="left arrow"
           onClick={handleDecrement}
-          className="projects__arrow projects__arrow--left"
+          className="projects__Arrow projects__Arrow--Left"
         />
         <h3>{projectArr[counter].title}</h3>
         <img
           src={rightArrow}
           alt="right arrow"
           onClick={handleIncrement}
-          className="projects__arrow projects__arrow--right"
+          className="projects__Arrow projects__Arrow--Right"
         />
       </div>
-      <div className="projects__content">
+      <div className="projects__Content">
         <p>{projectArr[counter].text}</p>
         <img
-          className="projects__content--image"
+          className="projects__Content--Image"
           src={projectArr[counter].image}
           alt={projectArr[counter].title}
         />
       </div>
-      <p>{projectArr[counter].link}</p>
+      <a href={projectArr[counter].link}>GitHub repository</a>
     </div>
   );
 };
