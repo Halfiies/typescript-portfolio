@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Projects.scss";
 import leftArrow from "../../assets/images/left-arrow.png";
 import rightArrow from "../../assets/images/right-arrow.png";
+import github from "../../assets/images/github_original.png";
 interface Props {
   projectArr: {
     title: string;
@@ -54,7 +55,13 @@ export const Projects = ({ projectArr }: Props) => {
           alt={projectArr[counter].title}
         />
       </div>
-      <a href={projectArr[counter].link}>GitHub repository</a>
+      <a href={projectArr[counter].link} className="projectCard__Content--Link">
+        <img
+          src={github}
+          className=" profileCard__Links--Images"
+          alt="github"
+        />
+      </a>
     </div>
   );
 };

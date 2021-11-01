@@ -1,8 +1,7 @@
 @use "../../Assets/Sass/variables.scss" as *;
 .profileCard {
-  position: relative;
   flex-flow: row nowrap;
-  top: 40px;
+
   background-color: $color-primary;
   border: 1px $color-primary;
   border-radius: 5px;
@@ -11,6 +10,16 @@
   width: 80%;
   &__Content {
     display: flex;
+  }
+  &__Text {
+    display: block;
+  }
+  &__Links {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__Links--Images {
+    height: 50px;
   }
   &__Header {
     display: block;

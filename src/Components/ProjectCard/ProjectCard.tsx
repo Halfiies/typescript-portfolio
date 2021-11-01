@@ -15,7 +15,9 @@ export const ProjectCard: React.FC<Props> = ({ title, text, image, link }) => {
         <p>{text}</p>
         <img className="projectCard__Content--image" src={image} alt={title} />
       </div>
-      <p>{link}</p>
+      <a href={link} className="projectCard__Content--Link">
+        <img> </img>
+      </a>
     </section>
   );
 };
