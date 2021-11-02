@@ -31,7 +31,10 @@
 }
 
 @media all and (max-width: $breakpointmobile) {
-  section {
+  .profileCard {
     display: inline-block;
+    &__Content--Picture {
+      display: none;
+    }
   }
 }

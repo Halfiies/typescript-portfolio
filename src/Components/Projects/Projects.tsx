@@ -3,7 +3,7 @@ import "./Projects.scss";
 import leftArrow from "../../assets/images/left-arrow.png";
 import rightArrow from "../../assets/images/right-arrow.png";
 import github from "../../assets/images/github_original.png";
-interface Props {
+interface IProjectArr {
   projectArr: {
     title: string;
     text: string;
@@ -12,7 +12,7 @@ interface Props {
   }[];
 }
 
-export const Projects = ({ projectArr }: Props) => {
+export const Projects = ({ projectArr }: IProjectArr) => {
   const [counter, setCounter] = useState(0);
   const handleIncrement = () => {
     if (counter === projectArr.length - 1) {

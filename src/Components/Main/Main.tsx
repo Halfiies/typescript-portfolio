@@ -1,4 +1,3 @@
-import React from "react";
 import "./Main.scss";
 import { Projects } from "../Projects/Projects";
 import { projectArr } from "../../Data/Projects";

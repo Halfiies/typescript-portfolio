@@ -20,6 +20,7 @@
   &__Arrow {
     display: block;
     height: 30px;
+    margin: 10px;
   }
   &__Content {
     display: flex;
@@ -31,7 +32,10 @@
 }
 
 @media all and (max-width: $breakpointmobile) {
-  section {
+  .projects {
     display: inline-block;
+    &__Content--Image {
+      display: none;
+    }
   }
 }
