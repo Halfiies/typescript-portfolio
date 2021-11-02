@@ -8,7 +8,7 @@ import javascript_icon from "../../assets/images/javascript.jpg";
 export const Techstack = () => {
   return (
     <div className="techStack">
-      <div className="techStack_Content">
+      <div className="techStack__Content">
         <img className="techStack__Images" src={react_icon} alt="react_icon" />
         <img className="techStack__Images" src={css_icon} alt="css_icon" />
         <img className="techStack__Images" src={html5_icon} alt="html5_icon" />
