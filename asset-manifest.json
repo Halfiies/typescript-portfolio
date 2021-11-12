@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/typescript-portfolio/static/css/main.b765842d.chunk.css",
-    "main.js": "/typescript-portfolio/static/js/main.ee61922d.chunk.js",
-    "main.js.map": "/typescript-portfolio/static/js/main.ee61922d.chunk.js.map",
+    "main.js": "/typescript-portfolio/static/js/main.307d915e.chunk.js",
+    "main.js.map": "/typescript-portfolio/static/js/main.307d915e.chunk.js.map",
     "runtime-main.js": "/typescript-portfolio/static/js/runtime-main.d4d833d4.js",
     "runtime-main.js.map": "/typescript-portfolio/static/js/runtime-main.d4d833d4.js.map",
     "static/js/2.1c217ced.chunk.js": "/typescript-portfolio/static/js/2.1c217ced.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/typescript-portfolio/index.html",
     "static/css/main.b765842d.chunk.css.map": "/typescript-portfolio/static/css/main.b765842d.chunk.css.map",
     "static/js/2.1c217ced.chunk.js.LICENSE.txt": "/typescript-portfolio/static/js/2.1c217ced.chunk.js.LICENSE.txt",
+    "static/media/Java_icon.8a9f71a0.png": "/typescript-portfolio/static/media/Java_icon.8a9f71a0.png",
     "static/media/Main.scss": "/typescript-portfolio/static/media/background.aec576f9.jpg",
     "static/media/css.02d225c7.png": "/typescript-portfolio/static/media/css.02d225c7.png",
     "static/media/github_original.06f6b12f.png": "/typescript-portfolio/static/media/github_original.06f6b12f.png",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.d4d833d4.js",
     "static/js/2.1c217ced.chunk.js",
     "static/css/main.b765842d.chunk.css",
-    "static/js/main.ee61922d.chunk.js"
+    "static/js/main.307d915e.chunk.js"
   ]
 }
