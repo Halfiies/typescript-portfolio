@@ -3,6 +3,7 @@ import "./Projects.scss";
 import leftArrow from "../../assets/images/left-arrow.png";
 import rightArrow from "../../assets/images/right-arrow.png";
 import github from "../../assets/images/github_original.png";
+
 interface IProjectArr {
   projectArr: {
     title: string;
