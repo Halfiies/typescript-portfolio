@@ -1,11 +1,11 @@
 @use "../../Assets/Sass/variables" as *;
 .main {
-  background-image: url("../../assets/images/background.jpg");
-  background-repeat: no-repeat;
-  background-position: initial;
-  background-color: $color-secondary;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background-image: url("../../assets/images/background.jpg");
+    background-repeat: repeat-y;
+    background-position: initial;
+    background-color: $color-secondary;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

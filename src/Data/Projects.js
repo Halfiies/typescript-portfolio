@@ -30,4 +30,3 @@ export const projectArr = [
     link: "https://github.com/nology-tech/jersey-client-project",
   },
 ];
-2;
